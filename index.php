@@ -1,6 +1,11 @@
+<!DOCTYPE html>
+
+<html>
+
 <head>
        
-<style type="text/css">     
+<style type="text/css">  
+	
 table{               
 border-collapse: collapse;          
 }
@@ -24,13 +29,13 @@ td {
 	}
 
 input{
-    padding: 10px 10px; 
+    	padding: 10px 10px; 
 	font-size: 15px;
-    border: None;
+    	border: None;
 	background: White;
-    width: 7ex;
-    height: 6.5ex;
-    outline: None;
+    	width: 7ex;
+    	height: 6.5ex;
+    	outline: None;
 	text-align: Center; 
 	}
 
@@ -43,11 +48,6 @@ input{
     margin-top: -300px;
     top: 50%;
     left: 50%;
-	}
-	
-	form{
-    width: 55px;
-    height: 20px;
 	}
 	
 body{
@@ -86,7 +86,7 @@ for ($red = 0; $red <= 10; $red++) {
 		
 		//ako je kolona različita od 0, ispisuje je
 		else if($red == 0 && $kol != 0)
-            echo "<td>$kol</td>";
+           		echo "<td>$kol</td>";
 		
 		////ako je red različiti od 0, ispisuje ga
  		else if ($red != 0 && $kol == 0)
@@ -121,6 +121,4 @@ for ($red = 0; $red <= 10; $red++) {
 
 </body>
  
- 
- 
-
+</html>
